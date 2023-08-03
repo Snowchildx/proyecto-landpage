@@ -1,0 +1,225 @@
+.container-header{
+  background-color:#1F2937;
+  top: 0;
+  left: 0;
+  width: 210vh;
+  height: 420px;
+  position: sticky;
+ margin-left: -10px;
+
+}
+
+.header1{
+  margin-top: -10px;
+  margin-left: -5px;
+}
+
+.header2{
+  margin-left: 120px;
+  margin-top: -140px;
+  font-size: 46px;
+  color: #F9FAF8;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.header3{
+  margin-top: -70px;
+  margin-left: 1070px;
+  color: white;
+}
+
+.header4{
+  color: #F9FAF8;
+  margin-top: 80px;
+  margin-left: 20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.header5{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: #F9FAF8;
+  font-size: 22px;
+  margin-left: 20px;
+  margin-top: 50px;
+}
+
+.header6{
+  margin-left: 800px;
+  margin-top: -200px;
+}
+
+/*Una vez terminado el header, sigue el método main */
+.container-main{
+  background-color:white;
+  top: 0;
+  left: 0;
+  width: 210vh;
+  height: 420px;
+  position: sticky;
+  margin-left: -10px;
+  margin-top:-22px;
+}
+
+
+.main1{
+  margin-left:400px;
+  margin-top:50px;
+  font-size: 22px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.main2{
+  margin-top:40px;
+  margin-left: 80px;
+}
+
+.main3{
+  margin-top: -210px;
+  margin-left: 520px;
+}
+
+.main4{
+  margin-top: -220px;
+  margin-left: 960px;
+}
+
+.main5{
+  color: #1F2937;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 26px;
+  margin-left: 94px;
+  margin-top: 12px;
+}
+
+.main6{
+  color: #1F2937;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 26px;
+  margin-left: 515px;
+  margin-top: -30px;
+}
+
+.main7{
+  color: #1F2937;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 26px;
+  margin-left: 920px;
+  margin-top: -30px;
+}
+
+/*Animación de las imagénes */
+.main2 img{
+  transition: transform 0.3 ease;
+}
+.main2 img:hover{
+  transform: scale(1.1);
+}
+.main3 img{
+  transition: transform 0.3 ease;
+}
+.main3 img:hover{
+  transform:scale(1.1);
+}
+.main4 img{
+  transition: transform 0.3 ease;
+}
+.main4 img:hover{
+  transform: scale(1.1);
+}
+
+
+/*Aquí se inicia con la mitad */
+.container-mitad{
+  background-color:#E5E7EB;
+  top: 0;
+  left: 0;
+  width: 210vh;
+  height: 320px;
+  position: sticky;
+  margin-left: -10px;
+  margin-top:-22px;
+  padding-top: 50px;
+}
+
+.mitad1{
+  word-wrap:break-word;
+  width: 720px;
+  margin-left: 120px;
+  margin-top: 80px;
+  font-size: 30px;
+  font-style: italic;
+}
+
+.mitad2{
+  margin-left: 820px;
+  margin-top: -30px;
+  font-size: 26px;
+  font-weight: bolder;
+}
+
+/*Aquí iniciamos con el metodo de login */
+.container.login{
+  background-color:white;
+  top: 0;
+  left: 0;
+  width: 210vh;
+  height: 320px;
+  position: relative;
+  margin-left: -10px;
+  margin-top:-22px;
+  padding-top: 50px;
+}
+
+.login-title{
+  margin-top: 120px;
+  margin-left: 120px;
+  font-size: 36px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bolder;
+  position: relative;
+}
+
+.login-sub{
+  margin-top: -20px;
+  margin-left: 120px;
+  font-size: 16px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: lighter;
+}
+
+.login-button{
+  margin: 5px;
+  border: 2px solid #3882f6;
+  padding: 5px 5px;
+  background-color:#3882f6;
+  color: white;
+  text-decoration: none;
+  width: 200px;
+  height: 50px;
+  text-align: center;
+  border-radius: 10px;
+  margin-top: -60px;
+  margin-left: 900px;
+}
+
+/*Empezamos con el footer aquí */
+.footer{
+  background-color:#1F2937;
+  top: 0;
+  left: 0;
+  width: 210vh;
+  height: 80px;
+  margin-left: -10px;
+  margin-top:-22px;
+  bottom: 0;
+  position: relative;
+}
+
+.footer-final{
+  color: white;
+  font-size: 26px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bold;
+  margin-left: 400px;
+}
